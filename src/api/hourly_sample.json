@@ -1,0 +1,198 @@
+[
+    {
+        "DateTime": "2023-09-21T12:00:00+02:00",
+        "EpochDateTime": 1695290400,
+        "WeatherIcon": 18,
+        "IconPhrase": "Rain",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 59.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 77,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=12&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=12&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T13:00:00+02:00",
+        "EpochDateTime": 1695294000,
+        "WeatherIcon": 18,
+        "IconPhrase": "Rain",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 60.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 82,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=13&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=13&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T14:00:00+02:00",
+        "EpochDateTime": 1695297600,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 60.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 25,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=14&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=14&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T15:00:00+02:00",
+        "EpochDateTime": 1695301200,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 61.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 20,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=15&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=15&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T16:00:00+02:00",
+        "EpochDateTime": 1695304800,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 60.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 20,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=16&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=16&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T17:00:00+02:00",
+        "EpochDateTime": 1695308400,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 60.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 20,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=17&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=17&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T18:00:00+02:00",
+        "EpochDateTime": 1695312000,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 60.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 20,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=18&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=18&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T19:00:00+02:00",
+        "EpochDateTime": 1695315600,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 60.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 14,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=19&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=19&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T20:00:00+02:00",
+        "EpochDateTime": 1695319200,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 59.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 2,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=20&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=20&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T21:00:00+02:00",
+        "EpochDateTime": 1695322800,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 58.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 2,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=21&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=21&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T22:00:00+02:00",
+        "EpochDateTime": 1695326400,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 57.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 3,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=22&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=22&lang=en-us"
+    },
+    {
+        "DateTime": "2023-09-21T23:00:00+02:00",
+        "EpochDateTime": 1695330000,
+        "WeatherIcon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false,
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 57.0,
+            "Unit": "F",
+            "UnitType": 18
+        },
+        "PrecipitationProbability": 4,
+        "MobileLink": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=23&lang=en-us",
+        "Link": "http://www.accuweather.com/en/nl/amsterdam/249758/hourly-weather-forecast/249758?day=1&hbhhour=23&lang=en-us"
+    }
+]
