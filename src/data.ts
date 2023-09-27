@@ -1,4 +1,21 @@
-export const currentWeather = {
+import { ICON_CATEGORIES } from "./components/weatherIcon";
+
+export interface CurrentWeather {
+  location: {
+    lat: number;
+    lon: number;
+    name: string;
+  };
+  temp: string;
+  cond: number;
+  condDescription: string;
+  range: {
+    min: string;
+    max: string;
+  };
+}
+
+export const currentWeather: CurrentWeather = {
   location: {
     lat: 59,
     lon: 17,
@@ -6,39 +23,49 @@ export const currentWeather = {
   },
   temp: '21°',
   cond: 1,
+  condDescription: 'Partly Cloudy',
   range: {
     min: '15°',
     max: '29°',
   },
 };
 
-export const hourly = [
+export interface HourlyForecastEntity {
+  datetime: string; // 10 PM, Now
+  temperature: string; // '21°'
+  conditions: number;
+  conditionsType?: ICON_CATEGORIES;
+}
+
+export const hourly: HourlyForecastEntity[] = [
   {
     datetime: 'Now',
     temperature: '21°',
     conditions: 6,
+    conditionsType: ICON_CATEGORIES.CLOUDY
   },
   {
     datetime: '10 PM',
     temperature: '21°',
     conditions: 6,
   },
-  {
-    datetime: '11 PM',
-    temperature: '20°',
-    conditions: 6,
-  },
-  {
-    datetime: '12 PM',
-    temperature: '19°',
-    conditions: 6,
-  },
-  {
-    datetime: '13 PM',
-    temperature: '18°',
-    conditions: 6,
-  },
 ];
+
+export interface DailyForecast {
+  datetime: string; // 'Fri'
+  conditions: number;
+  temp: number;
+  range: {
+    min: number;
+    max: number;
+  };
+  periodRange: {
+    min: number;
+    max: number;
+  };
+  iconCategory?: string;
+  probability?: number;
+}
 
 export const dailyForecast = [
   {
@@ -53,6 +80,8 @@ export const dailyForecast = [
       min: 12,
       max: 29,
     },
+    iconCategory: 'Sunny',
+    probability: 60
   },
   {
     datetime: 'Fri',
@@ -66,6 +95,8 @@ export const dailyForecast = [
       min: 12,
       max: 29,
     },
+    iconCategory: 'Sunny',
+    probability: 60
   },
   {
     datetime: 'Sat',
@@ -79,6 +110,8 @@ export const dailyForecast = [
       min: 12,
       max: 29,
     },
+    iconCategory: 'Sunny',
+    probability: 60
   },
   {
     datetime: 'Sun',
@@ -92,71 +125,7 @@ export const dailyForecast = [
       min: 12,
       max: 29,
     },
-  },
-  {
-    datetime: 'Mon',
-    conditions: 2,
-    temp: 21,
-    range: {
-      min: 17,
-      max: 28,
-    },
-    periodRange: {
-      min: 12,
-      max: 29,
-    },
-  },
-  {
-    datetime: 'Tue',
-    conditions: 2,
-    temp: 21,
-    range: {
-      min: 19,
-      max: 29,
-    },
-    periodRange: {
-      min: 12,
-      max: 29,
-    },
-  },
-  {
-    datetime: 'Wed',
-    conditions: 2,
-    temp: 21,
-    range: {
-      min: 15,
-      max: 25,
-    },
-    periodRange: {
-      min: 12,
-      max: 29,
-    },
-  },
-  {
-    datetime: 'Thu',
-    conditions: 2,
-    temp: 21,
-    range: {
-      min: 15,
-      max: 25,
-    },
-    periodRange: {
-      min: 12,
-      max: 29,
-    },
-  },
-  {
-    datetime: 'Fri',
-    conditions: 2,
-    temp: 21,
-    range: {
-      min: 15,
-      max: 25,
-    },
-    periodRange: {
-      min: 12,
-      max: 29,
-    },
+    probability: 60
   },
   {
     datetime: 'Sat',
@@ -170,5 +139,6 @@ export const dailyForecast = [
       min: 12,
       max: 29,
     },
+    iconCategory: 'Sunny',
   },
 ];
